@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blog personal de Julio Cubas, estático con Eleventy.",
+  "scripts": {
+    "start": "ELEVENTY_PATH_PREFIX=/ eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

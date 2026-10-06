@@ -1,0 +1,26 @@
+---
+layout: base.njk
+description: "Notas cortas de Julio Cubas sobre desarrollo web, automatización y sistemas."
+---
+<section class="intro">
+  <p class="eyebrow">Notas</p>
+  <h1>Escribo para pensar mejor.</h1>
+  <p class="lead">
+    Apuntes cortos sobre desarrollo web, automatización y las cosas que voy
+    aprendiendo mientras construyo. Sin ruido, sin prisas.
+  </p>
+</section>
+
+<section class="post-list" aria-label="Entradas">
+  {% for post in collections.posts %}
+  <article class="post-card">
+    <p class="post-meta">
+      <time datetime="{{ post.date | iso }}">{{ post.date | fecha }}</time>
+    </p>
+    <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+    <p class="post-excerpt">{{ post.data.resumen }}</p>
+  </article>
+  {% else %}
+  <p class="empty">Todavía no hay notas publicadas.</p>
+  {% endfor %}
+</section>

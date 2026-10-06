@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+<article class="post">
+  <header class="post-header">
+    {% if tags and tags.length %}
+    <ul class="tags">
+      {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    <h1>{{ title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ date | iso }}">{{ date | fecha }}</time>
+      {% if lectura %} · {{ lectura }} min de lectura{% endif %}
+    </p>
+    {% if resumen %}<p class="post-resumen">{{ resumen }}</p>{% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+
+  <nav class="post-footer">
+    <a href="{{ '/' | url }}">← Volver al inicio</a>
+  </nav>
+</article>

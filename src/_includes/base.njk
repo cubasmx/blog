@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}{{ site.title }}</title>
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | url }}">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | url }}">
+      <span>JC</span><b>{{ site.title }}</b>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="{{ '/' | url }}">Inicio</a>
+      <a href="{{ '/acerca/' | url }}">Acerca</a>
+      <a href="{{ '/feed.xml' | url }}">RSS</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>© {{ "" | year }} {{ site.author }}</p>
+    <p class="footer-note">Hecho con Eleventy · HTML plano</p>
+  </footer>
+</body>
+</html>
