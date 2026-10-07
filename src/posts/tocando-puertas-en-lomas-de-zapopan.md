@@ -34,6 +34,8 @@ Por eso salí a hablar con la gente. No es la forma más cómoda de conseguir cl
 - **Si no te gusta el sitio, no pagas el saldo.** Te lo regalo. Prefiero que la garantía sea real y no una frase de folleto.
 - **Y si después quieres que le sigamos dando mantenimiento**, hay dos planes opcionales: **Cuidado, $290 al mes**, y **Crecimiento, $590 al mes**. Opcional de verdad. Nunca obligatorio.
 
+Una cosa más. A veces un negocio no necesita un sitio sencillo, sino uno que pueda crecer muchísimo con el tiempo. Para esos casos ahora también trabajo con WordPress, el sistema que respalda wordpress.org. Lo elijo porque tiene una comunidad enorme que lo mantiene actualizado y porque no te amarra a ningún proveedor: el sitio es tuyo y te lo puedes llevar a donde quieras.
+
 Me gusta decirlo así: no soy el más barato del mercado, y no quiero serlo. Lo que ofrezco es precio fijo, plazo claro y garantía de verdad. Eso es distinto, y eso es lo que sostiene una relación de años con un negocio del barrio.
 
 ## Qué sigue
