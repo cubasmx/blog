@@ -44,6 +44,6 @@ Voy negocio por negocio. Marqué al primero y no contestó; le mandé WhatsApp. 
 
 Algunos dirán que no, y está bien. No todos necesitan un sitio, y a veces lo honesto es decirlo: hay negocios a los que su dinero les rinde más en otra cosa. Yo también le entro a eso. Con los que sí, ya me verán por la colonia con la computadora, tomando fotos y preguntando cuáles son los servicios que de verdad quieren vender.
 
-Si tienes un negocio en Zapopan —o en cualquier colonia— y sientes que la gente no te encuentra, mándame mensaje o márcame al **3349195298**. Te digo con honestidad si un sitio te sirve o si tu dinero está mejor en otro lado.
+Si tienes un negocio en Zapopan —o en cualquier colonia— y sientes que la gente no te encuentra, mándame mensaje o márcame al **5659898908**. Te digo con honestidad si un sitio te sirve o si tu dinero está mejor en otro lado.
 
 Y si conoces a un vecino al que le venga bien, pásale el número. Entre vecinos.
